@@ -1,0 +1,2076 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="libs/themeable-stylish-select/stylish-select.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.0/nouislider.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Whalix - Dashboard</title>
+	</head>
+	<body class="main bg-home">
+		<img class="bg bg-elipse-7" src="img/Ellipse 7.svg" alt="">
+		<img class="bg ellipse-52-2" src="img/Ellipse 52 2.svg" alt="">
+		<img class="bg bg-elipse-68" src="img/Ellipse 68.svg" alt="">
+		<img class="bg stars-2" src="img/stars.svg" alt="">
+
+		<div class="hover-exit hover-exit-top"></div>
+		<div class="hover-exit hover-exit-right"></div>
+		
+		<div class="header-first">
+			<div class="container">
+				<div class="top-header">
+					<a href="index.html">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<div class="informtions-block">
+						<div class="info">
+							<span class="count">2631</span>
+							<span> members</span>
+						</div>
+						<div class="info">
+							<span class="count">2.233.234</span>
+							<span> USD Deposits</span>
+						</div>
+						<div class="info">
+							<span class="count">234.654</span>
+							<span> USD WITHDRWALS</span>
+						</div>
+						<div class="info">
+							<span class="count">2020 NOV 15 10:41</span>
+						</div>
+					</div>
+					<div class="d-lg-none" id="sandwich">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<header>
+			<div class="container">
+				<div class="bottom-header">
+					<nav>
+						<ul>
+							<li>
+								<a class="menu-close" href="index.html">Home</a>
+							</li>
+							<li>
+								<a class="menu-close" href="news.html">News</a>
+							</li>
+							<li>
+								<a class="menu-close" href="affiliate.html">Affiliate Program</a>
+							</li>
+							<li>
+								<a class="menu-close" href="payments.html">Live payments</a>
+							</li>
+							<li>
+								<a class="menu-close" href="FAQ.html">FAQ</a>
+							</li>
+							<li>
+								<a class="menu-close" href="support.html">Support</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="right-block">
+						<a class="btn-header active" href="dashboard-main.html">Dashboard</a>
+						<a class="btn-header" href="settings.html">Settings</a>
+						<div class="user">
+							<img class="log-btn log-btn-1" src="img/user-btn.svg" alt="">
+							<img class="log-btn log-btn-2" src="img/Profile - button.svg" alt="">
+							<img class="log-btn poligon poligon-1" src="img/Polygon.svg" alt="">
+							<img class="log-btn poligon poligon-2" src="img/Polygon 1.svg" alt="">
+							<a class="log-out log-out-visibl" href="login.html">Log out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="dashboard" class="section-first">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="nav">
+							<a data-toggle="pill" href="#v-pills-Dashboard" class="active">Dashboard</a>
+							<a data-toggle="pill" href="#v-pills-Deposit">Deposit</a>
+							<a data-toggle="pill" href="#v-pills-Withdrawal">Withdrawal</a>
+							<a data-toggle="pill" href="#v-pills-Affiliate">Referral & Affiliate</a>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="tab-content">
+
+							<div class="tab-pane fade show active dashboard-contente" id="v-pills-Dashboard">
+								<div class="row align-items-stretch h-lg-100">
+									<div class="col-xl-4">
+										<div class="h-100 d-flex flex-column">
+											<div class="cart-dash cart-d-left hover">
+												<h6>Total available<br>Account Balance</h6>
+												<h5>$100 703,41</h5>
+											</div>
+
+											<div class="cart-dash cart-d-left hover">
+												<h6>Total Earned<br>Comission</h6>
+												<h5 class="color-dark-blue">$52 035,15</h5>
+											</div>
+
+											<div class="cart-dash cart-d-left hover">
+												<h6>Earnings from<br>1st Level</h6>
+												<h5 class="color-dark-blue">$1345,05</h5>
+											</div>
+
+											<div class="cart-dash cart-d-left">
+												<h6>Your <br class="d-xl-none">referral Link</h6>
+												<div class="link-copy-block link-copy-block-main hover">
+													<h5 class="white-space-text beruz-color hover copy-text">https://appname.com/?...</h5>
+													<img src="img/icons8-copy 1.svg" class="copy-btn ml-2" alt="">
+													<span class="copied">Copied</span>
+												</div>
+											</div>
+
+											<div class="cart-dash align-self-stretch h-lg-100 mb-xl-0 mb-lg-4 mb-3 hover">
+												<h5 class="beruz-color fz-26">5% Welcome Bonus for you!</h5>
+												<div class="time-wrap cart-time-left">
+													<p>Thank you for joining! For the next 24 hours, <br>you will receive a +5% bonus on all of your deposits. Start today!</p>
+													<span class="time-span-border d-none">23:59:52</span>
+												</div>
+												<div class="time-wrap time-wrap-2 cart-time-left">
+													<span class="time-span-border">23:59:52</span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-8">
+										<div class="h-lg-100 d-flex flex-column">
+											<div class="row px-0">
+												<div class="col-md-3 mb-lg-4 mb-3">
+													<div class="cart-dash card-d-right hover">
+														<h6>Your daily<br>recuring profits</h6>
+														<h5 class="beruz-color fw-normal">$542,00</h5>
+													</div>
+												</div>
+
+												<div class="col-md-3 mb-lg-4 mb-3">
+													<div class="cart-dash card-d-right hover">
+														<h6>Total<br>Earned</h6>
+														<h5 class="beruz-color fw-normal">$45 345,05</h5>
+													</div>
+												</div>
+
+												<div class="col-md-3 mb-lg-4 mb-3">
+													<div class="cart-dash card-d-right hover">
+														<h6>Total<br>Withdrawal</h6>
+														<h5 class="beruz-color fw-normal">$5 345,05</h5>
+													</div>
+												</div>
+
+												<div class="col-md-3 mb-lg-4 mb-3">
+													<div class="cart-dash card-d-right hover">
+														<h6>Active<br>Investment</h6>
+														<h5 class="beruz-color fw-normal">$1 345,05</h5>
+													</div>
+												</div>
+											</div>
+
+											<div class="cart-dash calculate-block align-self-stretch flex-grow-1">
+												<h6 class="calc-your-profit">Calculate your profit or next investment</h6>
+												
+												<div class="diapazon-price">
+													<h6>$5</h6>
+													<h6>$10 000</h6>
+												</div>
+
+												<div class="range-block">
+													<div id="slider-tooltips"></div>
+												</div>
+
+												<div class="your-invest mt-3 d-none">
+													<div class="row row-1 px-0 justify-content-center">
+														<div class="col-sm-4 text-center">
+															<h6>Your Invest:</h6>
+															<div class="usd-price">USD 1,247</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="row justify-content-center px-0">
+													<div class="col-lg-4 col-md-6 px-md-0">
+														<div class="block-time-main">
+															<span>23:59:52</span>
+															<div class="bonus">
+																<img src="img/icons8-get_cash 1.svg" alt="">
+																<h6>+5% Bonus</h6>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="your-invest">
+													<div class="row row-1 px-0">
+														<div class="col-sm-4 text-center">
+															<h6>Your Invest:</h6>
+															<div class="usd-price">USD 1,247</div>
+														</div>
+
+														<div class="col-sm-4 d-sm-flex d-none justify-content-between arrow-parrent">
+															<img class="arrow arrow-left" src="img/arrow-ll.svg" alt="">
+															<img class="arrow arrow-right" src="img/arrow-rr.svg" alt="">
+														</div>
+
+														<div class="col-sm-4 text-center">
+															<h6 class="beruz-color d-none">Receive:</h6>
+															<h6 class="beruz-color">Receive active investment:</h6>
+															<div class="usd-price beruz-color">USD 1,265</div>
+														</div>
+													</div>
+												</div>
+												
+												<div class="block-button text-center">
+													<div class="btn-wrap">
+														<a href="#" class="join-now">CTA Button</a>
+														<span></span>
+													</div>
+												</div>
+											</div>
+
+											<div class="cart-dash profit hover">
+												<div class="profit-per">
+													<h6>Profit <br><b>per day:</b></h6>
+													<h5>$5</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per week:</b></h6>
+													<h5>$10</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per month:</b></h6>
+													<h5>$25</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per year:</b></h6>
+													<h5 class="mb-0">$50</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row mt-xl-5 mt-4">
+									<div class="col">
+										<div class="cart-dash calculate-block">
+											<h6 class="calc-your-profit">Top Competencies <br class="d-md-none d-block"><span>(Based on 288 published reviews)</span></h6>
+											<div class="row px-0 justify-content-center pt-4">
+												<div class="col-md-4 mb-xl-0 mb-4">
+													<div class="profess-cart">
+														<div class="top">
+															<img src="img/okay.svg" alt="">
+															<span>Professionalism</span>
+														</div>
+														<small class="beruz-color">4.97 out of 5</small>
+														<div class="stars-block">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+														</div>
+														<small class="my-2">34 Reviews</small>
+													</div>
+												</div>
+												<div class="col-md-4 mb-xl-0 mb-4">
+													<div class="profess-cart">
+														<div class="top">
+															<img src="img/okay.svg" alt="">
+															<span>Customer loyalty</span>
+														</div>
+														<small class="beruz-color">4.97 out of 5</small>
+														<div class="stars-block">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+														</div>
+														<small class="my-2">32 Reviews</small>
+													</div>
+												</div>
+												<div class="col-md-4 mb-xl-0 mb-4">
+													<div class="profess-cart">
+														<div class="top">
+															<img src="img/okay.svg" alt="">
+															<span>Customer satisfaction</span>
+														</div>
+														<small class="beruz-color">4.82 out of 5</small>
+														<div class="stars-block">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+														</div>
+														<small class="my-2">33 Reviews</small>
+													</div>
+												</div>
+												<div class="col-xl-3 col-lg-4 col-md-6 mb-xl-0 mb-4 d-none">
+													<div class="profess-cart">
+														<div class="top">
+															<img src="img/okay.svg" alt="">
+															<span>Total Reviews</span>
+														</div>
+														<small class="beruz-color">4.97 out of 5</small>
+														<div class="stars-block">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+															<img src="img/star.svg" alt="">
+														</div>
+														<small class="my-2">1337 Reviews</small>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="v-pills-Deposit">
+								<div class="row justify-content-center">
+
+									<div class="col-xl-9 deposit-steps">
+										<h2 class="beruz-color text-center">Do you want to earn daily profits, for <br class="d-sm-block d-none">the rest of your life? Start now!</h2>
+
+										<h3>Deposit and get your +5% bonus in the next 23:53:32</h3>
+
+										<div class="cart calculate-block mb-xl-5 mb-4">
+											<h6 class="calc-your-profit">Calculate your profit or next investment</h6>
+											<div class="range-block">
+												<div id="slider-tooltips-2"></div>
+											</div>
+											<div class="diapazon-price">
+												<h6>$5</h6>
+												<h6>$10 000</h6>
+											</div>
+											<div class="row px-0 invest">
+												<div class="col-md-4">
+													<div class="your-invest">	
+														<h6>Your investment</h6>
+														<div class="usd-price">USD 10 000</div>
+													</div>
+												</div>
+												<div class="col-md-8">
+													<div class="cart-dash profit profit-in-cart hover">
+														<div class="profit-per">
+															<h6>Profit <br><b>per day:</b></h6>
+															<h5>$5</h5>
+														</div>
+														<div class="profit-per">
+															<h6>Profit <br><b>per week:</b></h6>
+															<h5>$10</h5>
+														</div>
+														<div class="profit-per">
+															<h6>Profit <br><b>per month:</b></h6>
+															<h5>$25</h5>
+														</div>
+														<div class="profit-per">
+															<h6>Profit <br><b>per year:</b></h6>
+															<h5 class="mb-0">$50</h5>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="block-button text-center">
+												<div class="btn-wrap">
+													<button class="join-now make-deposit">Deposit now</button>
+													<span></span>
+												</div>
+											</div>
+										</div>
+
+										<div class="text-center pt-5 pb-4">
+											<h2 class="beruz-color mb-4">Your active investment & profits</h2>
+											<span class="time-span-border">$ 1,325</span>
+										</div>
+
+										<div class="cart-dash profit out-cart my-lg-4 my-3 hover">
+											<div class="profit-per">
+												<h6>Profit <br><b>per day:</b></h6>
+												<h5>$5</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per week:</b></h6>
+												<h5>$10</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per month:</b></h6>
+												<h5>$25</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per year:</b></h6>
+												<h5 class="mb-0">$50</h5>
+											</div>
+										</div>
+
+										<div class="text-center pt-5">
+											<h2 class="beruz-color mb-0">Your single investments</h2>
+										</div>
+
+										<div class="row px-0 progress-block">
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/Group 33.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count">66%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/34.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count">100%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/35.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count count-siniy">130%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/36.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count">200%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/37.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count count-darc-blue">230%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/38.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count count-darc-blue">300%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/39.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count count-darc-blue">330%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/40.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count count-darc-xl">400%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/41.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count count-darc-xl">430%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/42.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count count-darc-xxl">500%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/43.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count color-yelow">530%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-sm-6 mb-4">
+												<div class="cart progress-cart">
+													<span class="id-number">ID 234234</span>
+													<span class="next-pay">Next Payment of</span>
+													<span class="next-pay"><b>$50</b></span>
+													<span class="next-pay">in 12:23:35</span>
+													<div class="block-img">
+														<img src="img/44.svg" alt="">
+														<span class="next-pay proszent">R.O.I.</span>
+														<h6 class="proszent proszent-count color-yelow">600%</h6>
+													</div>
+													<div class="footer-progres">
+														<div class="pl-0">
+															<small>Deposit Amount</small>
+															<small class="baks">$2345</small>
+														</div>
+														<div class="pr-0">
+															<small>Total Earned</small>
+															<small class="baks">$2345</small>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="text-center pt-5">
+											<h2 class="mb-3">Your deposit and investment history</h2>
+											<h5>NUMBER OF TOTAL WITHDRAWALS: <span> 12</span></h5>
+										</div>
+									</div>
+
+									<div class="col-12 table-deposit-steps">
+										<div class="cart-last-deposit text-left">
+											<div class="cart-last-deposit-inside">
+												<div class="row row-1 name">
+													<div class="col">Date and Time</div>
+													<div class="col">Payment  Method</div>
+													<div class="col">Transaction Hash</div>
+													<div class="col">Amount Invested</div>
+													<div class="col">Daily Profit</div>
+													<div class="col">Next Payment in</div>
+													<div class="col">Status</div>
+												</div>
+
+												<div class="list">
+													<div class="row row-1">
+														<div class="col">22.06.2020 12:12 am</div>
+														<div class="col"><img class="mr-2" src="img/Bitcoin small.svg" alt="">Bitcoin</div>
+														<div class="col">
+															<div class="d-flex align-items-center pos-rel">
+																<span class="white-space-text copy-text">0xa99d12aa...</span>
+																<img src="img/copy-white.svg" class="copy-btn ml-2" alt="">
+																<span class="copied">Copied</span>
+															</div>
+														</div>
+														<div class="col">$20 123.45</div>
+														<div class="col">$234.45</div>
+														<div class="col">23:35:23</div>
+														<div class="col">Completed</div>
+													</div>
+													<div class="row row-1">
+														<div class="col">22.06.2020 12:12 am</div>
+														<div class="col"><img class="mr-2" src="img/Ethereum small.svg" alt="">Ethereum</div>
+														<div class="col">hgsjdkhflk</div>
+														<div class="col">$20 123.45</div>
+														<div class="col">$234.45</div>
+														<div class="col">23:35:23</div>
+														<div class="col">Waiting</div>
+													</div>
+													<div class="row row-1">
+														<div class="col">22.06.2020 12:12 am</div>
+														<div class="col"><img class="mr-2" src="img/Litecoin small.svg" alt="">Litecoin</div>
+														<div class="col">hgsjdkhflk</div>
+														<div class="col">$20 123.45</div>
+														<div class="col">$234.45</div>
+														<div class="col">23:35:23</div>
+														<div class="col">In Process</div>
+													</div>
+													<div class="row row-1">
+														<div class="col">22.06.2020 12:12 am</div>
+														<div class="col"><img class="mr-2" src="img/Bitcoin small.svg" alt="">Bitcoin</div>
+														<div class="col">hgsjdkhflk</div>
+														<div class="col">$20 123.45</div>
+														<div class="col">$234.45</div>
+														<div class="col">23:35:23</div>
+														<div class="col">Failed</div>
+													</div>
+													<div class="row row-1">
+														<div class="col">22.06.2020 12:12 am</div>
+														<div class="col"><img class="mr-2" src="img/Ethereum small.svg" alt="">Ethereum</div>
+														<div class="col">hgsjdkhflk</div>
+														<div class="col">$20 123.45</div>
+														<div class="col">$234.45</div>
+														<div class="col">23:35:23</div>
+														<div class="col">10 Confirmations</div>
+													</div>
+													<div class="row row-1">
+														<div class="col">22.06.2020 12:12 am</div>
+														<div class="col"><img class="mr-2" src="img/Litecoin small.svg" alt="">Litecoin</div>
+														<div class="col">hgsjdkhflk</div>
+														<div class="col">$20 123.45</div>
+														<div class="col">$234.45</div>
+														<div class="col">23:35:23</div>
+														<div class="col">Approve</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 text-center mt-5 btn-steps">
+										<div class="btn-wrap">
+											<button class="join-now make-deposit">Deposit now</button>
+											<span></span>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="ChooseInvestmentMethod">
+										<div class="cart payout-method investment-method">
+											<h6>Choose your Investment Method</h6>
+											<div class="payout-method-inside">
+												<div class="row justify-content-center">
+
+													<div class="col-xl-5 col-lg-4 col-sm-6 mb-md-3 mb-2">
+														<div class="cart-coin hover create-new-deposit">
+															<span>Make <br>a new deposit</span>
+															<small>Free Fee</small>
+														</div>
+													</div>
+
+													<div class="col-xl-5 col-lg-4 col-sm-6 mb-md-3 mb-2">
+														<div class="cart-coin hover create-new-deposit-from-balance">
+															<span>Invest from <br>Account Balance</span>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<button class="back-btn hover back-to-steps">
+												<img src="img/icons8-back_arrow 1.svg" alt="">
+												<span>Back</span>
+											</button>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="MakeNewDeposit">
+										<div class="cart payout-method">
+											<h6>Choose your Payout Method</h6>
+
+											<div class="payout-method-inside">
+												<div class="row justify-content-center">
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-the-coose-amount hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/btc.svg" alt="">
+																<span>Bitcoin</span>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-the-coose-amount hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/Group 21.svg" alt="">
+																<span>Ethereum</span>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-the-coose-amount hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/Vector-2.svg" alt="">
+																<span>Litecoin</span>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-the-coose-amount hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/payeer 1.svg" alt="">
+																<span>Payeer</span>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-the-coose-amount hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/PM 1.svg" alt="">
+																<span>Perfect Money</span>
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<button class="back-btn back-to-choose hover">
+												<img src="img/icons8-back_arrow 1.svg" alt="">
+												<span>Back</span>
+											</button>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="pay-coins">
+										<div class="cart payout-method">
+											<h6>Choose your Payout Method</h6>
+											<div class="payout-method-inside">
+												<div class="row justify-content-center">
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-choose-from-balance hover cart-coin-active">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/btc.svg" alt="">
+																<span>Bitcoin</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-choose-from-balance hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/Group 21.svg" alt="">
+																<span>Ethereum</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-choose-from-balance hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/Vector-2.svg" alt="">
+																<span>Litecoin</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-choose-from-balance hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/payeer 1.svg" alt="">
+																<span>Payeer</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-choose-from-balance hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/PM 1.svg" alt="">
+																<span>Perfect Money</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+												</div>
+											</div>
+											<button class="back-btn back-to-choose-2 hover">
+												<img src="img/icons8-back_arrow 1.svg" alt="">
+												<span>Back</span>
+											</button>
+										</div>
+									</div>
+
+									<div class="col-xl-9 calculate-block d-none" id="ChooseYourAmount">
+										<div class="cart withdrawal-is-pending good-job">
+											<h6 class="text-left">Choose your Amount</h6>
+											<div class="your-invest">
+												<div class="row row-1 px-0 justify-content-center">
+													<div class="col-md-4 col-sm-6 text-center">
+														<h6>Your Invest:</h6>
+														<div class="usd-price">USD 1,247</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="cart-dash profit">
+												<div class="profit-per">
+													<h6>Profit <br><b>per day:</b></h6>
+													<h5>$5</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per week:</b></h6>
+													<h5>$10</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per month:</b></h6>
+													<h5>$25</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per year:</b></h6>
+													<h5>$50</h5>
+												</div>
+											</div>
+
+											<div class="row px-0 justify-content-center">
+												<div class="col-xl-7 col-lg-9">
+													<div class="btn-wrap">
+														<button class="join-now go-to-btc-payment-now">Deposit now</button>
+														<span></span>
+													</div>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<button class="back-btn back-to-choose-3 hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="ChooseYourAmountFromBalance">
+										<div class="cart-dash calculate-block">
+											<h6 class="h6-title">Choose your Amount</h6>
+
+											<div class="your-invest">
+												<div class="row row-1 px-0">
+													<div class="col-md-4 mb-md-0 mb-4">
+														<h6>You invest:</h6>
+														<div class="usd-price color-yel">USD 1,247</div>
+													</div>
+													<div class="col-md-4 d-flex flex-column justify-content-end mb-md-0 mb-4">
+														<div class="bonus">
+															<img src="img/icons8-get_cash 1.svg" alt="">
+															<h6>+5% Bonus</h6>
+														</div>
+													</div>
+													<div class="col-md-4 pos-rel">
+														<h6>Available Bitcoin Balance:</h6>
+														<div class="usd-price">USD 234</div>
+														<small>Choose full amount</small>
+													</div>
+												</div>
+											</div>
+
+											<div class="cart-dash profit">
+												<div class="profit-per">
+													<h6>Profit <br><b>per day:</b></h6>
+													<h5>$5</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per week:</b></h6>
+													<h5>$10</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per month:</b></h6>
+													<h5>$25</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per year:</b></h6>
+													<h5 class="mb-0">$50</h5>
+												</div>
+											</div>
+											
+											<div class="block-button text-center">
+												<div class="btn-wrap">
+													<button class="join-now go-to-good-job">Deposit now</button>
+													<span></span>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<button class="back-btn back-to-choose-4 hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 MakeYourBitcoinPayment d-none" id="MakeYourBitcoinPayment">
+										<div class="cart">
+											<div class="row px-0">
+												<div class="col-lg-9">
+													<h6 class="title-h6">Make your Bitcoin Payment now</h6>
+													<span>Please pay the exact amount:</span>
+
+													<div class="d-flex">
+														<div class="link-copy-block block-1 hover">
+															<h5 class="white-space-text beruz-color hover copy-text">0,005</h5>
+															<h5 class="ml-2 beruz-color">ВТС</h5>
+															<img src="img/icons8-copy 1.svg" class="copy-btn ml-2" alt="">
+															<span class="copied">Copied</span>
+														</div>
+													</div>
+
+													<span class="mt-lg-5 mt-3">Wallet ID:</span>
+
+													<div class="link-copy-block block-2 link-copy-block-long hover">
+														<h5 class="white-space-text beruz-color hover copy-text">0xa2841f818242e8446d4108eddbd28558bbc3a480 </h5>
+														<img src="img/icons8-copy 1.svg" class="copy-btn ml-2" alt="">
+														<span class="copied">Copied</span>
+													</div>
+
+													<button class="btn-modal open-qr-code">Popover QR Code</button>
+												</div>
+												<div class="col-lg-3 right-block">
+													<span class="mt-0 mb-1">Time left:</span>
+													<h6>59:59</h6>
+													<span class="span-right">Your Invest:<br><b>USD 1,234</b></span>
+													<span class="span-right">Market Price:<br><b>18.345,32/BTC</b></span>
+													<span>Order Status:<br><b>Waiting for Deposit</b></span>
+												</div>
+											</div>
+											<div class="bottom-links">
+												<button class="back-btn back-to-choose-5 hover">
+													<img class="mr-2" src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+											<img class="qr-code" src="img/qr.svg" alt="">
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="GoodJob">
+										<div class="cart withdrawal-is-pending good-job">
+											<h6 class="beruz-color">Good job! <br>You successfully invested</h6>
+											<h5 class="mb-3 mt-3">USD 1 247</h5>
+											<div class="cart-dash profit">
+												<div class="profit-per">
+													<h6>Profit <br><b>per day:</b></h6>
+													<h5>$5</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per week:</b></h6>
+													<h5>$10</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per month:</b></h6>
+													<h5>$25</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per year:</b></h6>
+													<h5>$50</h5>
+												</div>
+											</div>
+
+											<p>You receive your next payment of $52 in <span class="beruz-color">59:59</span></p>
+
+											<div class="row px-0 justify-content-center">
+												<div class="col-xl-7 col-lg-9">
+													<div class="btn-wrap">
+														<a href="#" class="join-now">Invite your Friends</a>
+														<span></span>
+													</div>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<button class="back-btn back-to-choose-6 hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="WithdrawalPending">
+										<div class="cart withdrawal-is-pending">
+											<h6 class="beruz-color">Withdrawal is pending</h6>
+											<h5>$1 325 ETH</h5>
+											<p>After the payment is cinfirmed, your plan will automatically start <br>You receive your next payment of $23 in <span class="beruz-color">24 hours</span> after that</p>
+											<div class="row px-0 justify-content-center">
+												<div class="col-xl-7 col-lg-9">
+													<div class="btn-wrap">
+														<a href="#" class="join-now">Invite your Friends</a>
+														<span></span>
+													</div>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<a href="#" class="back-btn hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="DepositPending">
+										<div class="cart withdrawal-is-pending">
+											<h6 class="beruz-color">Deposit is Pending</h6>
+											<h5>$1 325 ETH</h5>
+											<p>After the payment is cinfirmed, your plan will automatically start <br>You receive your next payment of $23 in <span class="beruz-color">24 hours</span> after that</p>
+											<div class="row px-0 justify-content-center">
+												<div class="col-xl-7 col-lg-9">
+													<div class="btn-wrap">
+														<a href="#" class="join-now">Invite your Friends</a>
+														<span></span>
+													</div>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<button class="back-btn back-to-choose-7 hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="cart-dash calculate-block d-none">
+										<h6 class="h6-title">Reinvest and receive a bonus</h6>
+
+										<div class="your-invest">
+											<div class="row row-1 px-0">
+												<div class="col-sm-4">
+													<h6>Your Invest:</h6>
+													<div class="usd-price">USD 1,247</div>
+												</div>
+
+												<div class="col-sm-4 d-flex flex-column justify-content-end">
+													<div class="bonus">
+														<img src="img/icons8-get_cash 1.svg" alt="">
+														<h6>+5% Bonus</h6>
+													</div>
+												</div>
+
+												<div class="col-sm-4">
+													<h6 class="beruz-color">Receive:</h6>
+													<div class="usd-price beruz-color">USD 1,265</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="cart-dash profit">
+											<div class="profit-per">
+												<h6>Profit <br><b>per day:</b></h6>
+												<h5>$5</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per week:</b></h6>
+												<h5>$10</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per month:</b></h6>
+												<h5>$25</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per year:</b></h6>
+												<h5 class="mb-0">$50</h5>
+											</div>
+										</div>
+										
+										<div class="block-button text-center">
+											<div class="btn-wrap">
+												<a href="#" class="join-now">Get the Bonus</a>
+												<span></span>
+											</div>
+										</div>
+
+										<div class="bottom-links">
+											<a href="#" class="back-btn hover">
+												<img src="img/icons8-back_arrow 1.svg" alt="">
+												<span>Back</span>
+											</a>
+											<a class="i-dont hover" href="#">I don't want the bonus, proceed to withdraw</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="v-pills-Withdrawal">
+								<div class="row justify-content-center">
+									<div class="col-xl-9 text-center" id="withdrawalMain">
+
+										<h2 class="beruz-color">Your active investment & profits</h2>
+
+										<span class="time-span-border">$ 1,325</span>
+
+										<div class="cart-dash bg-military profit mt-lg-5 mt-3 hover">
+											<div class="profit-per">
+												<h6>Profit <br><b>per day:</b></h6>
+												<h5 class="color-yelow">$5</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per week:</b></h6>
+												<h5 class="color-yelow">$10</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per month:</b></h6>
+												<h5 class="color-yelow">$25</h5>
+											</div>
+											<span></span>
+											<div class="profit-per">
+												<h6>Profit <br><b>per year:</b></h6>
+												<h5 class="color-yelow mb-0">$50</h5>
+											</div>
+										</div>
+
+										<div class="cart payout-method mt-lg-5 mt-3">
+											<h6>Choose your Payout Method</h6>
+
+											<div class="payout-method-inside">
+												<div class="row justify-content-center">
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-reinvest hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/btc.svg" alt="">
+																<span>Bitcoin</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-reinvest hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/Group 21.svg" alt="">
+																<span>Ethereum</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-reinvest hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/Vector-2.svg" alt="">
+																<span>Litecoin</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-reinvest hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/payeer 1.svg" alt="">
+																<span>Payeer</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+													<div class="col-lg-4 col-md-6 mb-md-3 mb-2">
+														<div class="cart-coin go-to-reinvest hover">
+															<div class="d-flex justify-content-center align-items-center">
+																<img src="img/PM 1.svg" alt="">
+																<span>Perfect Money</span>
+															</div>
+															<small>Available Balance $234</small>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<a href="#" class="back-btn hover">
+												<img src="img/icons8-back_arrow 1.svg" alt="">
+												<span>Back</span>
+											</a>
+										</div>
+
+										<h1>Because we value your money:<br><span>WITHDRAW WITH <br class="d-sm-none">NO FEES!</span></h1>
+
+										<h6 class="mt-70">All of your recent withdrawals</h6>
+										<h5>NUMBER OF TOTAL WITHDRAWALS: <span> 12</span></h5>
+
+										<div class="cart-last-deposit text-left">
+											<div class="cart-last-deposit-inside">
+												<div class="row row-1 name">
+													<div class="col-3">Date and Time</div>
+													<div class="col-3">Payment  Method</div>
+													<div class="col-2">Amount</div>
+													<div class="col-2">Status</div>
+													<div class="col-2">Transaction Hash</div>
+												</div>
+
+												<div class="list">
+													<div class="row row-1">
+														<div class="col-3">21/03/2020 - 11:21 am</div>
+														<div class="col-3"><img class="mr-2" src="img/Bitcoin small.svg" alt="">Bitcoin</div>
+														<div class="col-2">$20 123.45</div>
+														<div class="col-2">Completed</div>
+														<div class="col-2">In Process</div>
+													</div>
+													<div class="row row-1">
+														<div class="col-3">21/03/2020</div>
+														<div class="col-3"><img class="mr-2" src="img/Ethereum small.svg" alt="">Ethereum</div>
+														<div class="col-2">$20 123.45</div>
+														<div class="col-2">Waiting</div>
+														<div class="col-2">		
+															<div class="d-flex align-items-center pos-rel">
+																<span class="white-space-text copy-text">0xa99d12aa...</span>
+																<img src="img/copy-white.svg" class="copy-btn ml-2" alt="">
+																<span class="copied">Copied</span>
+															</div>
+														</div>
+													</div>
+													<div class="row row-1">
+														<div class="col-3">21/03/2020</div>
+														<div class="col-3"><img class="mr-2" src="img/Litecoin small.svg" alt="">Litecoin</div>
+														<div class="col-2">$20 123.45</div>
+														<div class="col-2">In Process</div>
+														<div class="col-2">hgsjdkhflk</div>
+													</div>
+													<div class="row row-1">
+														<div class="col-3">21/03/2020</div>
+														<div class="col-3"><img class="mr-2" src="img/Litecoin small.svg" alt="">Payeer</div>
+														<div class="col-2">$20 123.45</div>
+														<div class="col-2">Failed</div>
+														<div class="col-2">hgsjdkhflk</div>
+													</div>
+													<div class="row row-1">
+														<div class="col-3">21/03/2020</div>
+														<div class="col-3"><img class="mr-2" src="img/payeer 1 2.svg" alt="">Perfect Money</div>
+														<div class="col-2">$20 123.45</div>
+														<div class="col-2">10 Confirmations</div>
+														<div class="col-2">hgsjdkhflk</div>
+													</div>
+													<div class="row row-1">
+														<div class="col-3">21/03/2020</div>
+														<div class="col-3"><img class="mr-2" src="img/PM 1 2.svg" alt="">Litecoin</div>
+														<div class="col-2">hgsjdkhflk</div>
+														<div class="col-2">Approve</div>
+														<div class="col-2">hgsjdkhflk</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="withdrawalReinvest">
+										<div class="cart-dash calculate-block">
+											<h6 class="h6-title">Reinvest and receive a bonus</h6>
+
+											<div class="your-invest">
+												<div class="row row-1 px-0">
+													<div class="col-sm-4">
+														<h6>Your Invest:</h6>
+														<div class="usd-price">USD 1,247</div>
+													</div>
+
+													<div class="col-sm-4 d-flex flex-column justify-content-end">
+														<div class="bonus">
+															<img src="img/icons8-get_cash 1.svg" alt="">
+															<h6>+5% Bonus</h6>
+														</div>
+													</div>
+
+													<div class="col-sm-4">
+														<h6 class="beruz-color">Receive:</h6>
+														<div class="usd-price beruz-color">USD 1,265</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="cart-dash profit">
+												<div class="profit-per">
+													<h6>Profit <br><b>per day:</b></h6>
+													<h5>$5</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per week:</b></h6>
+													<h5>$10</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per month:</b></h6>
+													<h5>$25</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per year:</b></h6>
+													<h5 class="mb-0">$50</h5>
+												</div>
+											</div>
+											
+											<div class="block-button text-center">
+												<div class="btn-wrap">
+													<button class="join-now go-to-withdrawaSecond">Get the Bonus</button>
+													<span></span>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<button class="back-btn back-to-main-withdr hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+												<button class="i-dont hover get-bonus">I don't want the bonus, proceed to withdraw</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="haveYou">
+										<div class="cart cart-you-have">
+											<span>You have not added your payout information yet.</span>
+											<a class="hover" href="settings.html">Add it now</a>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="withdrawaSecond">
+										<div class="cart-dash calculate-block withdrawal">
+											<h6 class="h6-title">Withdrawal</h6>
+
+											<div class="your-invest">
+												<div class="row row-1 px-0 justify-content-center">
+													<div class="col-md-4 col-sm-6 text-center">
+														<h6>Your Invest:</h6>
+														<div class="usd-price">USD 1,247</div>
+													</div>
+												</div>
+
+												<div class="cart-dash profit">
+													<div class="profit-per">
+														<h6>MARKET<br>PRICE:</h6>
+														<h5 class="color-yelow">18.345,32/BTC</h5>
+													</div>
+													<span></span>
+													<div class="profit-per mt-sm-0 mt-3">
+														<h6>amount<br>IN BITCOIN:</h6>
+														<h5 class="color-yelow">0.00523 BTC</h5>
+													</div>
+												</div>
+
+												<div class="wallet-id">
+													<h6>WALLET ID:</h6>
+													<div class="link-copy-block hover">
+														<h5 class="white-space-text beruz-color hover copy-text">129HeocmcR6nxK5j8fuv52uC93c345</h5>
+														<img src="img/icons8-copy 1.svg" class="copy-btn ml-2" alt="">
+														<span class="copied">Copied</span>
+													</div>
+												</div>
+												
+												<div class="block-button text-center">
+													<div class="btn-wrap">
+														<button class="join-now go-to-confirmOrClaim">Withdraw now</button>
+														<span></span>
+													</div>
+												</div>
+
+												<div class="bottom-links">
+													<button class="back-btn back-to-reinvest hover">
+														<img src="img/icons8-back_arrow 1.svg" alt="">
+														<span>Back</span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="confirmOrClaim">
+										<div class="cart confirm-or-claim">
+											<img class="arrow" src="img/Arrow 1 2.svg" alt="">
+											<div class="row row-1 px-0">
+												<div class="col-lg-5 confirm">
+													<h6>Confirm withdrawal</h6>
+													<span>Get no Bonus</span>
+													<span>Withdraw USD 523</span>
+													<span>No more profits</span>
+													<div class="btn-wrap border-dark-btn">
+														<button class="reg-button confirm-withdrawal">Confirm Withdrawal</button>
+														<span></span>
+													</div>
+												</div>
+												<div class="col-lg-2 confirm">
+													<h6 class="or">or</h6>
+													<span class="d-lg-block d-none">or</span>
+													<span class="d-lg-block d-none">or</span>
+													<span class="d-lg-block d-none">or</span>
+												</div>
+												<div class="col-lg-5 confirm beruz-color">
+													<h6>Get Your Bonus</h6>
+													<span>Get your +5% bonus</span>
+													<span>Receive USD 524 investment</span>
+													<span>$ 23 endless daily profit</span>
+													<div class="btn-wrap">
+														<button class="join-now go-to-WaitAndReceive">Claim my Bonus</button>
+														<span></span>
+													</div>
+												</div>
+											</div>
+											<div class="bottom-links mt-lg-5 mt-4">
+												<button class="back-btn back-to-reinvest-from-claim hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="withdrawalIsPending">
+										<div class="cart withdrawal-is-pending" >
+											<h6 class="beruz-color">Withdrawal is pending</h6>
+											<h5>$1 325 ETH</h5>
+											<p>After the payment is cinfirmed, your plan will automatically start<br>You receive your next payment of $23 in <span class="beruz-color">24 hours</span> after that</p>
+											<div class="row px-0 justify-content-center">
+												<div class="col-xl-7 col-lg-9">
+													<div class="btn-wrap">
+														<button class="join-now go-to-goog-job">Invite your Friends</button>
+														<span></span>
+													</div>
+												</div>
+											</div>
+											<div class="bottom-links">
+												<button class="back-btn back-to-claim hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="GoodJobWithdrawal">
+										<div class="cart withdrawal-is-pending good-job">
+											<h6 class="beruz-color">Good job! You claimed your +5% bonus!<br>You successfully invested</h6>
+											<h5 class="mb-3 mt-4">USD 1 247</h5>
+											<div class="cart-dash profit">
+												<div class="profit-per">
+													<h6>Profit <br><b>per day:</b></h6>
+													<h5>$5</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per week:</b></h6>
+													<h5>$10</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per month:</b></h6>
+													<h5>$25</h5>
+												</div>
+												<span></span>
+												<div class="profit-per">
+													<h6>Profit <br><b>per year:</b></h6>
+													<h5>$50</h5>
+												</div>
+											</div>
+
+											<p>You receive your next payment of $52 in <span class="beruz-color">59:59</span></p>
+
+											<div class="row px-0 justify-content-center">
+												<div class="col-xl-7 col-lg-9">
+													<div class="btn-wrap">
+														<button class="join-now">Invite your Friends</button>
+														<span></span>
+													</div>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<button class="back-btn back-to-claim-from-good-job hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-9 d-none" id="WaitAndReceive">
+										<div class="cart-dash calculate-block text-center">
+											<h6 class="h6-title beruz-color">Wait and receive a bonus for reinvesting</h6>
+
+											<p>You have $5 available for withdrawing.<br>The minimum reinvestment amount is only <b class="beruz-color">$10</b>.</p>
+
+											<h5 class="beruz-color">Wait until you reach $10 and reinvest with a +5% bonus</h5>
+
+											
+											<div class="block-button text-center">
+												<div class="btn-wrap">
+													<button class="join-now go-to-confirm-claim">Get the Bonus</button>
+													<span></span>
+												</div>
+											</div>
+
+											<div class="bottom-links">
+												<button class="back-btn back-to-main-claim-2 hover">
+													<img src="img/icons8-back_arrow 1.svg" alt="">
+													<span>Back</span>
+												</button>
+												<button class="i-dont hover">I don't want the bonus, proceed to withdraw</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="v-pills-Affiliate">
+								<div class="row justify-content-center">
+									<div class="col-xl-6 text-center">
+										<h2>Get started with our 3-Level <br>affiliate program</h2>
+									</div>
+
+									<div class="col-xl-10 total-wrap">
+										<div class="row px-0">
+											<div class="col-lg-3 col-sm-6 mb-3">
+												<div class="cart-dash cart-d-left hover">
+													<h6>Total earned <br>commissions</h6>
+													<h5>$52 035,15</h5>
+												</div>
+											</div>
+											<div class="col-lg-3 col-sm-6 mb-3">
+												<div class="cart-dash cart-d-left hover">
+													<h6>Earnings <br>from 1st Level </h6>
+													<h5 class="beruz-color">$1 345,05</h5>
+												</div>
+											</div>
+											<div class="col-lg-3 col-sm-6 mb-3">
+												<div class="cart-dash cart-d-left hover">
+													<h6>Earnings <br>from 2nd Level </h6>
+													<h5 class="text-white">$45 345,05</h5>
+												</div>
+											</div>
+											<div class="col-lg-3 col-sm-6 mb-3">
+												<div class="cart-dash cart-d-left hover">
+													<h6>Earnings <br>from 3rd Level </h6>
+													<h5 class="text-white">$5 345,05</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-6 text-center">
+										<h2 class="beruz-color">Share with your friends <br class="d-sm-none d-block">& get paid</h2>
+									</div>
+
+									<div class="col-xl-10 text-center steps-carts-wrap">
+										<div class="link-border">
+											<h4>Your Referral link:</h4>
+											<div class="link-block pos-rel hover">
+												<span class="white-space-text copy-text">https://appname.com/?ref=Vita</span>
+												<img src="img/icons8-copy 1 2.svg" class="copy-btn ml-2" alt="">
+												<span class="copied">Copied</span>
+											</div>
+										</div>
+
+										<div class="steps-carts mt-5">
+											<div class="cart hover">
+												<span>Referral link Clicks:</span>
+												<span class="count">621</span>
+											</div>
+											<img src="img/icons8-back_arrow 1.svg" alt="">
+											<div class="cart hover">
+												<span>Referral link Clicks:</span>
+												<span class="count">621</span>
+											</div>
+											<img src="img/icons8-back_arrow 1.svg" alt="">
+											<div class="cart hover">
+												<span>Referral link Clicks:</span>
+												<span class="count">621</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-10 text-center mt-5">
+										<h2>Reach your milestones <br>for additional bonuses</h2>
+										<p>For every first level partner with an active deposit, you can reach milestones and receive additional bonuses.</p>
+									</div>
+									
+
+									<div class="col-xl-10 steps-carts-wrap">
+										<div class="steps-carts steps-carts-level">
+											<div class="cart hover">
+												<h6 class="number">1</h6>
+												<div class="d-flex flex-column justify-content-center align-items-center">
+													<hr>
+													<p>1st level referral<br>with a deposit</p>
+													<img class="main-img" src="img/check.svg" alt="">
+													<hr>
+												</div>
+												<div class="cart-footter">
+													<small>Reward</small>
+													<h6 class="number">$5</h6>
+												</div>
+											</div>
+
+											<img src="img/icons8-back_arrow 1.svg" alt="">
+											
+											<div class="cart hover">
+												<h6 class="number">3</h6>
+												<div class="d-flex flex-column justify-content-center align-items-center">
+													<hr>
+													<p>3st level referral<br>with a deposit</p>
+													<img class="main-img" src="img/icons8-submit_progress 1.svg" alt="">
+													<hr>
+												</div>
+												<div class="cart-footter">
+													<small>Reward</small>
+													<h6 class="number">$15</h6>
+												</div>
+											</div>
+											<img src="img/icons8-back_arrow 1.svg" alt="">
+											
+											<div class="cart disabled-cart hover">
+												<h6 class="number">10</h6>
+													<div class="d-flex flex-column justify-content-center align-items-center">
+													<hr>
+													<p>3st level referral<br>with a deposit</p>
+													<hr>
+												</div>
+												<div class="cart-footter">
+													<small>Reward</small>
+													<h6 class="number">$50</h6>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-xl-10 text-center py-5 cart-select-same">
+										<h2>In which currency would you <br>like your comission</h2>
+										<div class="row justify-content-center payout-method-inside">
+
+											<div class="col-lg-4 col-md-6 mb-md-4 mb-2">
+												<div class="cart-coin">
+													<div class="d-flex justify-content-center align-items-center">
+														<span>Same as your invitee</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-md-6 mb-md-4 mb-2">
+												<div class="cart-coin">
+													<div class="d-flex justify-content-center align-items-center">
+														<img src="img/btc.svg" alt="">
+														<span>Bitcoin</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-md-6 mb-md-4 mb-2">
+												<div class="cart-coin">
+													<div class="d-flex justify-content-center align-items-center">
+														<img src="img/Group 21.svg" alt="">
+														<span>Ethereum</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-md-6 mb-md-4 mb-2">
+												<div class="cart-coin">
+													<div class="d-flex justify-content-center align-items-center">
+														<img src="img/Vector-2.svg" alt="">
+														<span>Litecoin</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-md-6 mb-md-4 mb-2">
+												<div class="cart-coin">
+													<div class="d-flex justify-content-center align-items-center">
+														<img src="img/payeer 1.svg" alt="">
+														<span>Payeer</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-4 col-md-6 mb-md-4 mb-2">
+												<div class="cart-coin">
+													<div class="d-flex justify-content-center align-items-center">
+														<img src="img/PM 1.svg" alt="">
+														<span>Perfect Money</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-10 text-center">
+										<div class="btn-wrap">
+											<button class="join-now" data-toggle="modal" data-target="#successfully-2">Set the currency</button>
+											<span></span>
+										</div>
+									</div>
+
+									<div class="col-xl-6 text-center mt-5">
+										<h2>Referral banner you can use <br>anywhere on the web</h2>
+									</div>
+
+									<div class="col-xl-10 mt-lg-4 mt-3">
+										<div class="row px-0 baner-block">
+											<div class="col-lg-6">
+												<div class="cart justify-content-center">
+													<div class="stylish-select-container">
+														<select class="stylish-select">
+															<option>Gif Image file (125x125)</option>
+															<option>Gif Image file (135x135)</option>
+															<option>Gif Image file (145x145)</option>
+															<option>Gif Image file (155x155)</option>
+															<option>Gif Image file (165x165)</option>
+														</select>
+													</div>
+													<hr>
+													<div class="wrap-cart-block">
+														<span class="beruz-color">IMG link:</span>
+														<div class="cart-block hover pos-rel">
+															<span class="white-space-text copy-text">[url=https://localhost:444?id...</span>
+															<img src="img/icons8-copy 1 2.svg" class="copy-btn" alt="">
+															<span class="copied">Copied</span>
+														</div>
+													</div>
+													<hr>
+													<div class="wrap-cart-block">
+														<span class="beruz-color">HTML link:</span>
+														<div class="cart-block hover pos-rel">
+															<span class="white-space-text copy-text">[url=https://localhost:444?id...</span>
+															<img src="img/icons8-copy 1 2.svg" class="copy-btn" alt="">
+															<span class="copied">Copied</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 mt-lg-0 mt-3">
+												<div class="cart text-center">
+													<span>Banner (125х125)</span>
+													<div class="wrap-banner-125">
+														<img src="img/banner.svg" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-xl-10 text-center all-tranzactions mt-5">
+										<h2>All transactions <br class="d-lg-none d-block">of the referred <span class="beruz-color">621 Users</span></h2>
+
+										<div class="cart-last-deposit text-left">
+											<div class="cart-last-deposit-inside">
+												<div class="row row-1 name">
+													<div class="col-3">Date</div>
+													<div class="col-3">Username</div>
+													<div class="col-2">Payment Option</div>
+													<div class="col-2">Amount</div>
+													<div class="col-2">Comission</div>
+												</div>
+
+												<div class="list">
+													<div class="row row-1">
+														<div class="col-3">22.06.2020 12:12 am</div>
+														<div class="col-3">vitavaaa@gmail.com</div>
+														<div class="col-2"><img class="mr-1" src="img/Bitcoin small 2.svg" alt=""> Bitcoin</div>
+														<div class="col-2">$10 703,41</div>
+														<div class="col-2">$107 (10%)</div>
+													</div>
+													<div class="row row-1">
+														<div class="col-3">12.07.2020</div>
+														<div class="col-3">vitavaaa@gmail.com</div>
+														<div class="col-2"><img class="mr-1" src="img/Ethereum small 2.svg" alt=""> Ethereum</div>
+														<div class="col-2">$346,30</div>
+														<div class="col-2">$34 (2%)</div>
+													</div>
+													<div class="row row-1">
+														<div class="col-3">26.06.2020  12:12 am</div>
+														<div class="col-3">vitavaaa@gmail.com</div>
+														<div class="col-2"><img class="mr-1" src="img/Litecoin small 2.svg" alt=""> Litecoin</div>
+														<div class="col-2">$45,90</div>
+														<div class="col-2">$45 (3%)</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="left-footer">
+							<a href="index.html">
+								<img class="logo-img" src="img/logo.svg" alt="">
+							</a>
+							<h6>Use of Company's services is subject<br>to these terms of</h6>
+						</div>	
+					</div>
+					<div class="col-lg-6">
+						<div class="right-footer">
+							<div>
+								<h6>Number<br>Incooperation</h6>
+								<h6>all rights reserved<br>company name | copyright 2020</h6>
+							</div>
+							<a href="#">
+								<img class="telegram-icon" src="img/telegram-logo.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="modal fade" id="exit-popap">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="top-block">
+						<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+							<img src="img/cross.svg" alt="">
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="before-you">
+							<h6>Before you go!</h6>
+							<img src="img/logo.svg" alt="">
+						</div>
+						<div class="row px-0">
+							<div class="col-xl-6 col-lg-7 px-lg-0">
+								<h2>You want to start earning money, right?</h2>
+								<p>Start with our + 5% bonus within <br class="d-lg-block d-none">the first 24 hours of registration!</p>
+								<div class="btn-wrap">
+									<a href="registration.html" class="join-now">Register now for free!</a>
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footerr">
+						
+						<span><img class="mr-2" src="img/modal-footer.svg" alt="">Trusted by over <b>63</b> active, experienced and non-professional investors around the world.</span>
+					</div>
+					<img class="modal-bg" src="img/modal-bg.svg" alt="">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="successfully-2">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div>
+						<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+							<img src="img/cross.svg" alt="">
+						</button>
+					</div>
+					<div class="modal-body d-flex flex-column align-items-center">
+						<span>Successfully changed</span>
+						<a href="dashboard-main.html" class="btn-modal hover">Back to dashboard</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script src="libs/themeable-stylish-select/stylish-select.js"></script>
+		<script src="js/select-optoin-costom-settings.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.0/nouislider.min.js"></script>
+    <script src="js/script-options.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
